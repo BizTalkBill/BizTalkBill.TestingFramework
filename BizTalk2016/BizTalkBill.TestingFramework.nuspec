@@ -9,26 +9,31 @@
     <projectUrl>http://www.biztalkbill.com</projectUrl>
     <iconUrl>http://www.biztalkbill.com</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>BizTalk TestingFramework</description>
+    <description>BizTalkBill BizTalk Testing Framework</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags></tags>
+    <dependencies>
+      <dependency id="SpecFlow" version="2.4," />
+      <dependency id="System.ValueTuple" version="4.5," />
+      <dependency id="XMLDiffPatch" version="1.0,"  />
+    </dependencies>
     <references>
       <reference file="BizTalkBill.TestingFramework.Helpers.dll" />
-      <reference file="XmlDiffPatch.dll" />
-      <reference file="XmlDiffPatch.View.dll" />
+      <!--<reference file="XmlDiffPatch.dll" />
+      <reference file="XmlDiffPatch.View.dll" />-->
       <reference file="BizTalkBill.TestingFramework.Utilities.dll" />
       <reference file="BizTalkBill.TestingFramework.SpecFlow.dll" />
     </references>
   </metadata>
   <files>
-    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.dll" target="lib" />
-    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.dll" target="lib" />
-    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.View.dll" target="lib" />
-    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.pdb" target="lib" />
-    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.dll" target="lib" />
-    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.pdb" target="lib" />
-    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.dll" target="lib" />
-    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.pdb" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.dll" target="lib\net46" />
+    <!--<file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.dll" target="lib\net46" />
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.View.dll" target="lib\net46" />-->
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.pdb" target="lib\net46" />
+    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.dll" target="lib\net46" />
+    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.pdb" target="lib\net46" />
+    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.dll" target="lib\net46" />
+    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.pdb" target="lib\net46" />
   </files>
 </package>
