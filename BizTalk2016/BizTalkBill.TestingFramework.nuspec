@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkBill.TestingFramework</id>
+    <version>1.0.0.0</version>
+    <authors>BizTalkBill</authors>
+    <owners>BizTalkBill</owners>
+    <licenseUrl>http://www.biztalkbill.com</licenseUrl>
+    <projectUrl>http://www.biztalkbill.com</projectUrl>
+    <iconUrl>http://www.biztalkbill.com</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BizTalk TestingFramework</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags></tags>
+    <references>
+      <reference file="BizTalkBill.TestingFramework.Helpers.dll" />
+      <reference file="XmlDiffPatch.dll" />
+      <reference file="XmlDiffPatch.View.dll" />
+      <reference file="BizTalkBill.TestingFramework.Utilities.dll" />
+      <reference file="BizTalkBill.TestingFramework.SpecFlow.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.dll" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.dll" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\XmlDiffPatch.View.dll" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Helpers\bin\debug\BizTalkBill.TestingFramework.Helpers.pdb" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.dll" target="lib" />
+    <file src="BizTalkBill.TestingFramework.Utilities\bin\debug\BizTalkBill.TestingFramework.Utilities.pdb" target="lib" />
+    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.dll" target="lib" />
+    <file src="BizTalkBill.TestingFramework.SpecFlow\bin\debug\BizTalkBill.TestingFramework.SpecFlow.pdb" target="lib" />
+  </files>
+</package>
